@@ -1,14 +1,5 @@
 # Python - Data Structures: Lists, Tuples
 
-##  Curriculum
-**Foundations v2.1 - Part 2**  
-Average: 100%  
-Project Badge: 🟢  
-Author: Guillaume  
-Weight: 1
-
----
-
 ##  Learning Objectives
 
 At the end of this project, you should be able to explain:
