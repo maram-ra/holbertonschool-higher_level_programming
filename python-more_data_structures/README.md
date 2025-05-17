@@ -7,7 +7,7 @@ Part of Holberton Foundations v2.1 - Part 2
 ## Description
 
 This project explores two powerful data structures in Python: sets and dictionaries.  
-It also introduces functional programming tools like `lambda`, `map`, and `filter` to make the code more efficient and expressive.
+It also introduces functional programming tools like `lambda`, `map`, and `filter` to make the code more efficient and expressive
 
 ---
 
