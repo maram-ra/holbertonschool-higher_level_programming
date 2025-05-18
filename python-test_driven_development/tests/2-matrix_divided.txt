@@ -1,71 +1,42 @@
-======================
-The ``100-matrix_mul`` module
-======================
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
-Using ``matrix_mul``
--------------------
+>>> matrix_divided([[10, 12, 14], [3, 12, 22]], 3)
+[[3.33, 4.0, 4.67], [1.0, 4.0, 7.33]]
 
-This is a text file to test the 100-matrix_mul module.  First import
-``100-matrix_mul`` from the ``matrix_mul`` module:
+>>> matrix_divided([[1, 2, 3], [4, 5, 6]], 3)
+[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
 
->>> matrix_mul = __import__('100-matrix_mul').matrix_mul
-
-Now use it with:
-
->>> print(matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
-[[7, 10], [15, 22]]
-
->>> print(matrix_mul([[1, 2]], [[3, 4], [5, 6]]))
-[[13, 16]]
-
->>> print(matrix_mul([], []))
+>>> matrix_divided([['h'], [1]], 3)
 Traceback (most recent call last):
-ValueError: m_a can't be empty
+  ...
+TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> print(matrix_mul([[]], []))
+>>> matrix_divided([[1], [2, 3]], 2)
 Traceback (most recent call last):
-ValueError: m_a can't be empty
+  ...
+TypeError: Each row of the matrix must have the same size
 
->>> print(matrix_mul([[1, 2]], []))
+>>> matrix_divided([[1,2,3], [1,2,3]], "h")
 Traceback (most recent call last):
-ValueError: m_b can't be empty
+  ...
+TypeError: div must be a number
 
->>> print(matrix_mul(3, [[1, 2]]))
+>>> matrix_divided([[10, 12, 14], [3, 12, 22]], 0)
 Traceback (most recent call last):
-TypeError: m_a must be a list
+  ...
+ZeroDivisionError: division by zero
 
->>> print(matrix_mul([[1, 2]], 'x'))
+>>> matrix_divided([[1,2,3], [1,2,3]], float('inf'))
 Traceback (most recent call last):
-TypeError: m_b must be a list
+  ...
+TypeError: div must be a number
 
->>> print(matrix_mul([2, 4], [[1, 2]]))
+>>> matrix_divided([[1,2],[1,2]])
 Traceback (most recent call last):
-TypeError: m_a must be a list of lists
+  ...
+TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
->>> print(matrix_mul([[1, 2]], [2, 4]))
+>>> matrix_divided()
 Traceback (most recent call last):
-TypeError: m_b must be a list of lists
-
->>> print(matrix_mul())
-Traceback (most recent call last):
-TypeError: matrix_mul() missing 2 required positional arguments: 'm_a' and 'm_b'
-
->>> print(matrix_mul([[1, 3]],[[1, 'a']]))
-Traceback (most recent call last):
-TypeError: m_b should contain only integers or floats
-
->>> print(matrix_mul([[1, 'a']], [[1, 3]]))
-Traceback (most recent call last):
-TypeError: m_a should contain only integers or floats
-
->>> print(matrix_mul([[1, 1]], [[1, 3]]))
-Traceback (most recent call last):
-ValueError: m_a and m_b can't be multiplied
-
->>> print(matrix_mul([[1, 1]], [[1, 3], [1, 3, 4]]))
-Traceback (most recent call last):
-TypeError: each row of m_b must be of the same size
-
->>> print(matrix_mul([[1, 3], [1, 3, 4]], [[1, 2]]))
-Traceback (most recent call last):
-TypeError: each row of m_a must be of the same size
+  ...
+TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
