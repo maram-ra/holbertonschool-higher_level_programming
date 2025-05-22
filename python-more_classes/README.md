@@ -2,7 +2,7 @@
 
 This project continues the exploration of Object-Oriented Programming (OOP) in Python by building a robust and fully featured `Rectangle` class.
 
-## 📚 Concepts Covered
+## Concepts Covered
 
 - Class vs Instance Attributes
 - Data encapsulation and property management
@@ -12,7 +12,7 @@ This project continues the exploration of Object-Oriented Programming (OOP) in P
 - Custom behavior for comparison and factory methods
 - Pythonic approach to getters/setters using `@property`
 
-## 🧠 Learning Objectives
+## Learning Objectives
 
 By the end of this project, I was able to explain:
 
@@ -24,14 +24,14 @@ By the end of this project, I was able to explain:
 - How `__dict__` reflects the internal namespace of an instance
 - How `getattr()` works to retrieve attributes dynamically
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.8.5
 - Code must follow `pycodestyle` (v2.7.*)
 - No module imports allowed
 - Each file must be executable and end with a new line
 
-## 🚀 File Breakdown
+## File Breakdown
 
 | File             | Description |
 |------------------|-------------|
@@ -46,7 +46,7 @@ By the end of this project, I was able to explain:
 | `8-rectangle.py` | Adds `bigger_or_equal()` static method to compare rectangles |
 | `9-rectangle.py` | Adds `square()` class method to create square instances |
 
-## 💡 Example Usage
+## Example Usage
 
 ```python
 r1 = Rectangle(3, 2)
