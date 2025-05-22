@@ -45,13 +45,3 @@ By the end of this project, I was able to explain:
 | `7-rectangle.py` | Adds customizable `print_symbol` for string representation |
 | `8-rectangle.py` | Adds `bigger_or_equal()` static method to compare rectangles |
 | `9-rectangle.py` | Adds `square()` class method to create square instances |
-
-## Example Usage
-
-```python
-r1 = Rectangle(3, 2)
-print(r1)  # ###
-           # ###
-print(Rectangle.number_of_instances)  # e.g. 1
-r2 = Rectangle.square(5)
-print(r2.area())  # 25
