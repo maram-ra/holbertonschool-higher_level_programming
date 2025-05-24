@@ -13,7 +13,7 @@ def sizeError(value, field):
 
 class Rectangle():
     """
-        Start of the rectangle class
+        Start of the rectangle clas
     """
 
     __width = 0
