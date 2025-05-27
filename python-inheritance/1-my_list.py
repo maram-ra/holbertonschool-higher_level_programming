@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""a subclass"""
+""" MyList module """
 
 
-def print_sorted(self):
-    """inherst from list"""
+class MyList(list):
+    """ A subclass of list """
 
-    def print_stord(self):
-        print(stored(self))
+    def print_sorted(self):
+        new_list = sorted(self)
+        print(new_list)
+        return new_list
