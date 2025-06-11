@@ -6,5 +6,5 @@ import json
 
 
 def from_json_string(my_str):
-    """ Returns a json object/dict """
-    return json.leads(my_str)
+    """  function that returns an object"""
+    return json.loads(my_str)
