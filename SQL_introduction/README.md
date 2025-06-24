@@ -56,4 +56,3 @@ All tasks are solved with SQL scripts and tested via CLI using `mysql` command-l
 
 ---
 
-
