@@ -48,7 +48,4 @@ Most scripts can be executed from the terminal:
 ```bash
 ./script_name.py [args]
 
-## Author
-
-**Maram** – [@maram-ra](https://github.com/maram-ra)
 
