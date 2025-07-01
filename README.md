@@ -22,11 +22,4 @@ This repository contains solutions for the higher-level programming track at Hol
 - ORM modeling with SQLAlchemy
 - Secure SQL access (no injection vulnerabilities)
 
-##  Running Python Scripts
-
-Most scripts can be executed from the terminal:
-
-```bash
-./script_name.py [args]
-
 
