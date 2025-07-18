@@ -11,10 +11,4 @@ This project is about building dynamic web pages using Python and Flask. Instead
 - Use reusable templates (header, footer, etc).
 
 
-## How to Run
-
-1. Install Flask:
-
-```bash
-pip install Flask
 
